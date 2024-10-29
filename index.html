@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EasyCare-Always there to care</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description"> -->
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <!-- <img src="../easycarenew/img/logo.png" alt="EasyCare" style="width: 100;" height="100"> -->
+                    <small class="py-2"><i class="fas fa-users text-primary me-2"></i>EasyCare Team </small>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+                <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                    <div class="me-3 pe-3 border-end py-2">
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>easycare@example.com</p>
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91 8976543429</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+            <div class="d-flex align-items-center">
+                <img src="img/logo.png" alt="EasyCare-logo" style="height: 80px; margin-right: 10px;">
+                <h1 class="m-0 text-primary d-flex align-items-center">
+                    <i class=""></i>EasyCare
+                </h1>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="appointment.html" class="nav-item nav-link">Appointment</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                        <a href="team.html" class="dropdown-item">Our Dentist</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>
+                <a href="signin.html" class="nav-item nav-link">Sign In</a>
+                <a href="signup.html" class="nav-item nav-link">Sign Up</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+        
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your body & maind Healthy</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Your health, our care with EasyCare</h1>
+                            <a href="appointment.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
+                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your body & maind Healthy</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">EasyCare: connecting you to a healthier life</h1>
+                            <a href="appointment.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
+                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid banner mb-5">
+        <div class="container">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary d-flex flex-column p-5" style="height: 300px;">
+                        <h3 class="text-white mb-3">Services Offered</h3>
+                        <div class="d-flex justify-content-between text-white mb-3">
+                            <h6 class="text-white mb-0">Health Checkups -</h6>
+                            <p class="mb-0">Comprehensive evaluations</p>
+                        </div>
+                        <div class="d-flex justify-content-between text-white mb-3">
+                            <h6 class="text-white mb-0">Family care -</h6>
+                            <p class="mb-0">Personalized meal plans</p>
+                        </div>
+                        <div class="d-flex justify-content-between text-white mb-3">
+                            <h6 class="text-white mb-0">Mental Health Support -</h6>
+                            <p class="mb-0">Therapy and guidance</p>
+                        </div>
+                        <a class="btn btn-light" href="appointment.html">Appointment</a>
+                    </div>
+                </div>                
+                
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-dark d-flex flex-column p-5" style="height: 300px;">
+                        <h3 class="text-white mb-3">Search A Doctor</h3>
+                        <div class="date mb-3" id="date" data-target-input="nearest">
+                            <input type="text" class="form-control bg-light border-0 datetimepicker-input"
+                                placeholder="Appointment Date" data-target="#date" data-toggle="datetimepicker" style="height: 40px;">
+                        </div>
+                        <select class="form-select bg-light border-0 mb-3" style="height: 40px;" id="serviceSelect">
+                            <option selected>Select A Service</option>
+                            <option value="General Checkup">General Checkup</option>
+                            <option value="Cardiology">Cardiology</option>
+                            <option value="Dermatology">Dermatology</option>
+                            <option value="Pediatrics">Pediatrics</option>
+                            <option value="Gynecology">Gynecology</option>
+                        </select>
+                        <a class="btn btn-light" href="#" onclick="searchDoctor()">Search Doctor</a>
+
+                        <div id="searchResults" class="text-white mt-3" style="display: none;">
+                            <h6>Available Doctor:</h6>
+                            <div id="doctorDisplay"></div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function searchDoctor() {
+                        // Get the selected service
+                        const serviceSelect = document.getElementById('serviceSelect');
+                        const selectedService = serviceSelect.value;
+                        
+                        // Hide results by default
+                        document.getElementById('searchResults').style.display = 'none';
+                        
+                        // Define doctors based on services
+                        const doctors = {
+                            "General Checkup": { name: "Dr. John Smith", available: true },
+                            "Cardiology": { name: "Dr. Jane Doe", available: true },
+                            "Dermatology": { name: "Dr. Alice Johnson", available: true },
+                            "Pediatrics": { name: "Dr. Mark Brown", available: true },
+                            "Gynecology": { name: "Dr. Emily Davis", available: true }
+                        };
+                
+                        // Check if a valid service is selected
+                        if (selectedService in doctors && doctors[selectedService].available) {
+                            // Show the results section
+                            document.getElementById('searchResults').style.display = 'block';
+                            
+                            // Display the selected doctor
+                            const doctorDisplay = document.getElementById('doctorDisplay');
+                            doctorDisplay.innerHTML = `
+                                <p>${doctors[selectedService].name} - Available</p>
+                                <a class="btn btn-light" href="appointment.html">Book Appointment</a>
+                            `;
+                        } else {
+                            // If no doctors are available for the selected service, you could handle it here
+                            document.getElementById('doctorDisplay').innerHTML = "<p>No doctors available for the selected service.</p>";
+                        }
+                    }
+                </script>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-secondary d-flex flex-column p-5" style="height: 300px;">
+                        <!-- <h3 class="text-white mb-3">Make Appointment</h3>
+                        <p class="text-white">Ipsum erat ipsum dolor clita rebum no rebum dolores labore, ipsum magna at eos et eos amet.</p>
+                        <h2 class="text-white mb-0">+012 345 6789</h2> -->
+                 
+                        <!-- Achievements and Awards Section -->
+                        <div class="mt-3">
+                            <h5 class="text-white">Our goals:</h5>
+                            <ul class="list-unstyled text-white">
+                                <li>🏆 Best Healthcare App</li>
+                                <li>🏅 Customer Satisfaction </li>
+                                <li>🌟 Innovation in Health Tech</li>
+                                <li>🎖️ Excellence in Service Delivery</li>
+                                <li>⭐ Top Rated by Users</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- my new add -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .health-section {
+            height: 400px;
+        }
+
+        .icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .result-box {
+            border: 1px solid #fff;
+            border-radius: 10px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dashboard-section {
+            margin-top: 50px;
+            display: none; /* Initially hidden */
+        }
+
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 40vh;
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Heart Rate Monitoring -->
+            <div class="col-lg-3 wow zoomIn" data-wow-delay="0.1s">
+                <div class="bg-danger d-flex flex-column p-5 health-section">
+                    <h3 class="text-white mb-3">Heart Rate</h3>
+                    <input type="number" id="heartRate" class="form-control mb-3" placeholder="Enter Heart Rate">
+                    <button class="btn btn-light" onclick="checkHeartRate()">Check Heart Rate</button>
+                    <div id="heartRateResult" class="result-box mt-3" style="display: none;"></div>
+                </div>
+            </div>
+
+            <!-- Water Intake Tracker -->
+            <div class="col-lg-3 wow zoomIn" data-wow-delay="0.3s">
+                <div class="bg-info d-flex flex-column p-5 health-section">
+                    <h3 class="text-white mb-3">Water Intake</h3>
+                    <input type="number" id="waterIntake" class="form-control mb-3" placeholder="Enter Water Intake (ml)">
+                    <button class="btn btn-light" onclick="checkWaterIntake()">Check Intake</button>
+                    <div id="waterIntakeResult" class="result-box mt-3" style="display: none;"></div>
+                </div>
+            </div>
+
+            <!-- Stress Monitoring -->
+            <div class="col-lg-3 wow zoomIn" data-wow-delay="0.5s">
+                <div class="bg-warning d-flex flex-column p-5 health-section">
+                    <h3 class="text-white mb-3">Stress Level</h3>
+                    <input type="number" id="stressLevel" class="form-control mb-3" placeholder="Enter Stress Level (0-10)">
+                    <button class="btn btn-light" onclick="checkStressLevel()">Check Stress</button>
+                    <div id="stressLevelResult" class="result-box mt-3" style="display: none;"></div>
+                </div>
+            </div>
+
+            <!-- Blood Pressure Monitoring -->
+            <div class="col-lg-3 wow zoomIn" data-wow-delay="0.7s">
+                <div class="bg-success d-flex flex-column p-5 health-section">
+                    <h3 class="text-white mb-3">Blood Pressure</h3>
+                    <input type="text" id="bloodPressure" class="form-control mb-3" placeholder="Enter BP (Systolic/Diastolic)">
+                    <button class="btn btn-light" onclick="checkBloodPressure()">Check BP</button>
+                    <div id="bloodPressureResult" class="result-box mt-3" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Create Button -->
+        <div class="text-center mt-4">
+            <button class="btn btn-primary" onclick="showDashboard()">Create Dashboard</button>
+        </div>
+
+        <!-- User Dashboard Section -->
+        <div class="dashboard-section" id="dashboard">
+            <h2 class="text-center mb-4">User Dashboard</h2>
+            <div class="row">
+                <!-- Monthly Check-Up Graph -->
+                <div class="col-lg-4">
+                    <h4>Monthly Check-Ups</h4>
+                    <div class="chart-container">
+                        <canvas id="monthlyCheckupChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Daily Running Graph -->
+                <div class="col-lg-4">
+                    <h4>Daily Running</h4>
+                    <div class="chart-container">
+                        <canvas id="dailyRunningChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Physical and Mental Health Monitoring Graph -->
+                <div class="col-lg-4">
+                    <h4>Health Monitoring</h4>
+                    <div class="chart-container">
+                        <canvas id="healthMonitoringChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        function checkHeartRate() {
+            const heartRate = parseInt(document.getElementById('heartRate').value);
+            const resultDiv = document.getElementById('heartRateResult');
+            if (!isNaN(heartRate)) {
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = heartRate < 60 ? 'Low Heart Rate' :
+                    heartRate <= 100 ? 'Normal Heart Rate' :
+                    'High Heart Rate';
+            } else {
+                alert('Please enter a valid heart rate.');
+            }
+        }
+
+        function checkWaterIntake() {
+            const waterIntake = parseInt(document.getElementById('waterIntake').value);
+            const resultDiv = document.getElementById('waterIntakeResult');
+            if (!isNaN(waterIntake)) {
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = waterIntake < 2000 ? 'Consider drinking more water.' :
+                    'You are adequately hydrated.';
+            } else {
+                alert('Please enter a valid water intake.');
+            }
+        }
+
+        function checkStressLevel() {
+            const stressLevel = parseInt(document.getElementById('stressLevel').value);
+            const resultDiv = document.getElementById('stressLevelResult');
+            if (!isNaN(stressLevel) && stressLevel >= 0 && stressLevel <= 10) {
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = stressLevel < 4 ? 'Low Stress Level' :
+                    stressLevel <= 7 ? 'Moderate Stress Level' :
+                    'High Stress Level';
+            } else {
+                alert('Please enter a valid stress level (0-10).');
+            }
+        }
+
+        function checkBloodPressure() {
+            const bloodPressure = document.getElementById('bloodPressure').value;
+            const resultDiv = document.getElementById('bloodPressureResult');
+            const [systolic, diastolic] = bloodPressure.split('/').map(Number);
+            if (!isNaN(systolic) && !isNaN(diastolic)) {
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = systolic < 120 && diastolic < 80 ? 'Normal BP' :
+                    systolic < 130 && diastolic < 80 ? 'Elevated BP' :
+                    systolic < 140 || diastolic < 90 ? 'High BP Stage 1' :
+                    'High BP Stage 2';
+            } else {
+                alert('Please enter a valid blood pressure (Systolic/Diastolic).');
+            }
+        }
+
+        function showDashboard() {
+            const dashboard = document.getElementById('dashboard');
+            dashboard.style.display = 'block'; // Show the dashboard
+            // Optionally, you could also clear inputs or results here if needed.
+        }
+
+        // Chart.js Configuration
+        const monthlyCheckupCtx = document.getElementById('monthlyCheckupChart').getContext('2d');
+        const dailyRunningCtx = document.getElementById('dailyRunningChart').getContext('2d');
+        const healthMonitoringCtx = document.getElementById('healthMonitoringChart').getContext('2d');
+
+        // Monthly Check-Ups Chart
+        new Chart(monthlyCheckupCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                datasets: [{
+                    label: 'Check-Ups',
+                    data: [1, 2, 1, 3, 1, 2, 3],
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // Daily Running Chart
+        new Chart(dailyRunningCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                datasets: [{
+                    label: 'Running (km)',
+                    data: [5, 3, 8, 2, 4, 6, 7],
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // Health Monitoring Chart
+        new Chart(healthMonitoringCtx, {
+            type: 'pie',
+            data: {
+                labels: ['Healthy', 'Moderate', 'Unhealthy'],
+                datasets: [{
+                    label: 'Health Status',
+                    data: [60, 30, 10],
+                    backgroundColor: [
+                        'rgba(75, 192, 192, 0.6)',
+                        'rgba(255, 206, 86, 0.6)',
+                        'rgba(255, 99, 132, 0.6)',
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+            }
+        });
+    </script>
+
+<div class="container">
+    <h1>Would you like to see your health care dashboard?</h1>
+    <div class="button-container">
+        <button class="btn btn-primary" onclick="redirectToDashboard()" style="color: rgb(177, 206, 180);">Yes</button>
+        <button class="btn btn-primary" onclick="showStayMessage()" style="color: rgb(239, 219, 219);">No</button>
+    </div>
+    <p id="responseMessage" class="response-message"></p>
+</div>
+
+<script>
+    function redirectToDashboard() {
+        window.location.href = "dashboard.html";
+    }
+
+    function showStayMessage() {
+        document.getElementById('responseMessage').innerText = "You chose to stay on this page.";
+    }
+</script>
+
+
+    
+
+    <!-- Banner Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title mb-4">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">About Us</h5>
+                        <h1 class="display-5 mb-0">The World's Best health care That You Can Trust</h1>
+                    </div>
+                    <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Award Winning</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Professional Staff</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>24/7 Opened</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Fair Prices</h5>
+                        </div>
+                    </div>
+                    <a href="appointment.html" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Make Appointment</a>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Appointment Start -->
+    <div class="container-fluid bg-primary bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6 py-5">
+                    <div class="py-5">
+                        <h1 class="display-5 text-white mb-4">We Are A Certified and Award Winning online care  You Can Trust</h1>
+                        <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
+                        <h1 class="text-white mb-4">Make Appointment</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Cardiology</option>
+                                        <option value="1">General Checkup</option>
+                                        <option value="2">Dermatology</option>
+                                        <option value="3">Gynecology</option>
+                                    </select>
+                                </div>
+                                <!-- <div class="col-12 col-sm-6">
+                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Select Doctor</option>
+                                        <option value="1">Doctor 1</option>
+                                        <option value="2">Doctor 2</option>
+                                        <option value="3">Doctor 3</option>
+                                    </select>
+                                </div> -->
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control bg-light border-0 datetimepicker-input"
+                                            placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="time" id="time1" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control bg-light border-0 datetimepicker-input"
+                                            placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
+                    <div class="twentytwenty-container position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="img/before.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="img/after.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title mb-5">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Services</h5>
+                        <h1 class="display-5 mb-0">We Offer The Best Quality  Services</h1>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="data:image/jpeg;base64,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" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Friendly general checkup</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/service-2.jpg" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Dental Implants</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-7">
+                    <div class="row g-5">
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.3s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="data:image/jpeg;base64,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" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Family Care in Your Place</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="data:image/jpeg;base64,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" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Eye Care</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
+                    <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
+                        <h3 class="text-white mb-3">Make Appointment</h3>
+                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
+                        <h2 class="text-white mb-0">+91 9876543223</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Offer Start -->
+    <div class="container-fluid bg-offer my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="offer-text text-center rounded p-5">
+                        <h1 class="display-5 text-white">Save 30% On Your First Checkup</h1>
+                        <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod diam duo lorem magna sit dolore sed et.</p>
+                        <a href="appointment.html" class="btn btn-dark py-3 px-5 me-3">Appointment</a>
+                        <a href="service.html" class="btn btn-light py-3 px-5">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer End -->
+
+
+    <!-- Pricing Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="section-title mb-4">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Pricing Plan</h5>
+                        <h1 class="display-5 mb-0">We Offer Fair Prices for Treatment</h1>
+                    </div>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo eirmod magna dolore erat amet</p>
+                    <h5 class="text-uppercase text-primary wow fadeInUp" data-wow-delay="0.3s">Call for Appointment</h5>
+                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">+91 7898765432</h1>
+                </div>
+                <div class="col-lg-7">
+                    <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">
+                        <div class="price-item pb-4">
+                            <div class="position-relative">
+                                <img class="img-fluid rounded-top" src="img/price-1.jpg" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
+                                    <h2 class="text-primary m-0">$35</h2>
+                                </div>
+                            </div>
+                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
+                                <h4>Teeth Whitening</h4>
+                                <hr class="text-primary w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                            </div>
+                        </div>
+                        <div class="price-item pb-4">
+                            <div class="position-relative">
+                                <img class="img-fluid rounded-top" src="img/price-2.jpg" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
+                                    <h2 class="text-primary m-0">$49</h2>
+                                </div>
+                            </div>
+                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
+                                <h4>Dental Implant</h4>
+                                <hr class="text-primary w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                            </div>
+                        </div>
+                        <div class="price-item pb-4">
+                            <div class="position-relative">
+                                <img class="img-fluid rounded-top" src="img/price-3.jpg" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
+                                    <h2 class="text-primary m-0">$99</h2>
+                                </div>
+                            </div>
+                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
+                                <h4>Root Canal</h4>
+                                <hr class="text-primary w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-primary bg-testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="owl-carousel testimonial-carousel rounded p-5 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-1.jpg" alt="">
+                            <p class="fs-5">Dolores sed duo clita justo dolor et stet lorem kasd dolore lorem ipsum. At lorem lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
+                            <hr class="mx-auto w-25">
+                            <h4 class="text-white mb-0">Client Name</h4>
+                        </div>
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-2.jpg" alt="">
+                            <p class="fs-5">Dolores sed duo clita justo dolor et stet lorem kasd dolore lorem ipsum. At lorem lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
+                            <hr class="mx-auto w-25">
+                            <h4 class="text-white mb-0">Client Name</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="section-title bg-light rounded h-100 p-5">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Dentist</h5>
+                        <h1 class="display-6 mb-4">Meet Our Certified & Experienced Dentist</h1>
+                        <a href="appointment.html" class="btn btn-primary py-3 px-5">Appointment</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class="img-fluid rounded-top w-100" src="img/team-1.jpg" alt="">
+                            <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <p class="text-primary mb-0">Implant Surgeon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class="img-fluid rounded-top w-100" src="img/team-2.jpg" alt="">
+                            <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <p class="text-primary mb-0">Implant Surgeon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class="img-fluid rounded-top w-100" src="img/team-3.jpg" alt="">
+                            <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <p class="text-primary mb-0">Implant Surgeon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class="img-fluid rounded-top w-100" src="img/team-4.jpg" alt="">
+                            <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <p class="text-primary mb-0">Implant Surgeon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class="img-fluid rounded-top w-100" src="img/team-5.jpg" alt="">
+                            <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <p class="text-primary mb-0">Implant Surgeon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
+        <div class="container">
+            <div class="bg-primary p-5">
+                <form class="mx-auto" style="max-width: 600px;">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                        <button class="btn btn-dark px-4">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Popular Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-light py-4" style="background: #051225;">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="@">easycare</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a class="text-white border-bottom" href="">team Teach Ninjas</a><br>
+                        <!-- Distributed by <a class="text-white border-bottom" href="">working togrther</a>               -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/twentytwenty/jquery.event.move.js"></script>
+    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
