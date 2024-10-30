@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Reminder Assistant</title>
+    <link rel="stylesheet" href="rem.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Health Reminder Assistant</h1>
+        <p>Set reminders for tablet intake and monthly check-ups</p>
+        
+        <label for="reminderTime">Tablet Reminder Time:</label>
+        <input type="time" id="reminderTime">
+
+        <label for="checkupDate">Monthly Check-up Date:</label>
+        <input type="date" id="checkupDate">
+
+        <label for="languageSelect">Select Language:</label>
+        <select id="languageSelect">
+            <option value="en-US">English</option>
+            <option value="hi-IN">Hindi</option>
+            <option value="kn-IN">Kannada</option>
+        </select>
+        
+
+        <button onclick="startReminders()">Start Reminders</button>
+    </div>
+    
+    <script src="rem.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Conference</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+    <h2>Video Conference</h2>
+    <div id="video-container">
+        <div class="video-wrapper">
+            <video id="localVideo" autoplay muted></video>
+            <div class="video-label">You</div>
+        </div>
+        <div class="video-wrapper">
+            <video id="remoteVideo" autoplay></video>
+            <div class="video-label">Remote</div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="startButton">Start Call</button>
+        <button id="hangupButton" disabled>Hang Up</button>
+        <button id="muteButton" disabled>Mute</button>
+        <button id="videoButton" disabled>Turn Video Off</button>
+    </div>
+
+    <div id="status">Not Connected</div>
+
+    <script src="video.js"></script>
+</body>
+</html>
